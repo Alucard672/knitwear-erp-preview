@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#244b3e"><title>登录 · 梧桐朴鲤</title><link rel="stylesheet" href="assets/login.css?v=10"></head><body>
+<main class="login-shell">
+<section class="brand-panel" aria-label="梧桐朴鲤品牌介绍">
+<a class="brand" href="login.html"><span class="brand-symbol"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19C3 12 6 4 20 3c1 13-6 19-15 16ZM5 19 16 8M9 15v-5m4 1h4"/></svg></span><span>梧桐朴鲤<small>WUTONG PULI</small></span></a>
+<div class="brand-story"><div class="eyebrow">A THOUGHTFUL WAY TO WORK</div><h1>好衣有序，<br>生意从容。</h1><p>从每一款产品，到每一份信任。<br>让销售、库存与协作，在这里有序发生。</p></div>
+<svg class="brand-art" viewBox="0 0 520 320" role="img" aria-label="自绘针织线条与叶片插画"><defs><pattern id="knit" width="28" height="40" patternUnits="userSpaceOnUse"><path d="M2 3c0 13 12 23 12 33C14 26 26 16 26 3M14 0v40" fill="none" stroke="#b8c4a4" stroke-width="1" opacity=".22"/></pattern><linearGradient id="leaf"><stop stop-color="#bac6a8"/><stop offset="1" stop-color="#64836b"/></linearGradient></defs><rect x="100" y="30" width="320" height="270" rx="145" fill="url(#knit)"/><path d="M80 315C230 300 351 187 417 39" fill="none" stroke="#b7c6a5" stroke-width="1.5"/><path d="M223 264C164 213 167 141 200 116c49 38 69 97 23 148ZM299 208c-1-79 55-123 116-118 7 59-42 107-116 118Z" fill="url(#leaf)" opacity=".8"/><path d="m201 119 23 143m77-57 111-112" stroke="#d2dbc3" stroke-width="1" fill="none"/><circle cx="421" cy="278" r="35" fill="none" stroke="#aebe9f" opacity=".25"/></svg>
+<footer>针织服装业务工作台 <span>PRODUCT · PEOPLE · PROGRESS</span></footer>
+</section>
+<section class="form-panel"><div class="login-form"><div class="eyebrow">WELCOME BACK</div><h2>欢迎回来</h2><p class="intro">登录工作台，开始今天的工作。</p>
+<div class="terminal-tabs" role="group" aria-label="选择登录终端"><button id="salesTab" type="button" class="active" aria-pressed="true" onclick="chooseTerminal('sales')">销售工作台<small>销售 · 库存 · 客户</small></button><button id="adminTab" type="button" aria-pressed="false" onclick="chooseTerminal('admin')">PC 管理后台<small>开发 · 打样 · 生产</small></button></div>
+<form id="loginForm" novalidate>
+<label for="account">账号</label><div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21v-3a7 7 0 0 1 14 0v3M12 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/></svg><input id="account" name="account" autocomplete="off" placeholder="请输入账号（演示可留空）"></div>
+<label for="password">密码</label><div class="input-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10h14v11H5V10Zm3 0V7a4 4 0 0 1 8 0v3m-4 5v2"/></svg><input id="password" name="password" type="password" autocomplete="off" placeholder="请输入密码（演示可留空）"><button class="eye" type="button" id="showPassword" aria-label="显示密码" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Zm10-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg></button></div>
+<div class="demo-note"><span></span>演示模式 · 暂不校验账号密码</div><button class="login-button" type="submit">登录工作台<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+<p class="privacy">点击即可进入，不保存或发送输入的账号密码。</p>
+</form></div><footer>梧桐朴鲤 · 让每一步协作，都清晰可见。</footer></section></main>
+<script src="assets/login.js?v=10"></script></body></html>

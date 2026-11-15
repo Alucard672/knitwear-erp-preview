@@ -1,0 +1,2 @@
+// Navigation convenience only. This is not authentication or access control.
+(()=>{if(location.hash.startsWith('#share/'))return;let entered=true;try{entered=sessionStorage.getItem('wt-preview-entered')==='1'}catch{return}if(!entered){document.documentElement.style.visibility='hidden';const file=location.pathname.endsWith('sales.html')?'sales.html':'index.html';location.replace('login.html?next='+encodeURIComponent(file+location.hash))}})();
